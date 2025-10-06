@@ -1,0 +1,40 @@
+{
+  "name": "iching-mcp",
+  "version": "1.0.0",
+  "description": "易经卜卦 MCP 服务",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "iching-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "node --loader ts-node/esm src/index.ts"
+  },
+  "keywords": ["mcp", "iching", "易经", "占卜", "divination", "i-ching"],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenyili/iching-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wenyili/iching-mcp/issues"
+  },
+  "homepage": "https://github.com/wenyili/iching-mcp#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "iching-divination": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "ts-node": "^10.9.2"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "iching": {
+      "command": "node",
+      "args": ["dist/index.js"]
+    }
+  }
+}
