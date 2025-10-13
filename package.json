@@ -1,6 +1,6 @@
 {
   "name": "iching-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "易经卜卦 MCP 服务",
   "type": "module",
   "main": "./dist/index.js",
