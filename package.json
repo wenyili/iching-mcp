@@ -5,14 +5,21 @@
   "type": "module",
   "main": "./dist/index.js",
   "bin": {
-    "iching-mcp": "./dist/index.js"
+    "iching-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
     "dev": "node --loader ts-node/esm src/index.ts"
   },
-  "keywords": ["mcp", "iching", "易经", "占卜", "divination", "i-ching"],
+  "keywords": [
+    "mcp",
+    "iching",
+    "易经",
+    "占卜",
+    "divination",
+    "i-ching"
+  ],
   "author": "",
   "license": "MIT",
   "repository": {
