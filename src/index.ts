@@ -6,7 +6,7 @@ import {
   CallToolRequestSchema,
   ListToolsRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js";
-import { QiGua, SimpleJieGuaQi, ChuanTongJieGuaQi, YaoZhi } from "@liwenyi/iching-divination";
+import { QiGua, SimpleJieGuaQi, ChuanTongJieGuaQi, YaoZhi } from "iching-divination";
 
 const server = new Server(
   {
